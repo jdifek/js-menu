@@ -101,6 +101,26 @@ body {
   display: none;
 }
 
+.CDI-fourlice-container-last-left-one {
+  position: absolute;
+  display: none;
+
+  top: 45%;
+  right: 100%;
+
+  text-align: center;
+}
+
+.ip-fourlice-container-last-four {
+  position: absolute;
+  display: none;
+
+  top: 45%;
+  left: 100%;
+
+  text-align: center;
+}
+
 .CVK-fourlice-container-last-four {
   position: absolute;
   display: none;
@@ -168,6 +188,157 @@ body {
 }
 
 .CVK-inner-box__right div {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+
+
+
+.UTI-thirdslice-container-last-left-one {
+  position: absolute;
+
+  top: 45%;
+  right: 100%;
+
+  text-align: center;
+  display: none;
+}
+
+.UTI-thirdslice-container-last-left-three {
+  position: absolute;
+  display: flex;
+
+  top: 45%;
+  right: 100%;
+
+  text-align: center;
+  display: none;
+}
+
+.UTI-thirdslice-container-last-two {
+  position: absolute;
+  display: flex;
+
+  top: 45%;
+  left: 100%;
+
+  text-align: center;
+  display: none;
+}
+
+.UTI-thirdslice-container-last-four {
+  position: absolute;
+  display: flex;
+
+  top: 45%;
+  left: 100%;
+
+  text-align: center;
+
+  display: none;
+}
+
+.UTI-fourlice-container-last-left-one {
+  position: absolute;
+
+  top: 45%;
+  right: 100%;
+
+  text-align: center;
+  display: none;
+}
+
+.UTI-fourlice-container-last-left-three {
+  position: absolute;
+  display: flex;
+
+  top: 45%;
+  right: 100%;
+
+  text-align: center;
+  display: none;
+}
+
+.UTI-fourlice-container-last-two {
+  position: absolute;
+  display: flex;
+
+  top: 45%;
+  left: 100%;
+
+  text-align: center;
+  display: none;
+}
+
+.UTI-fourlice-container-last-four {
+  position: absolute;
+  display: none;
+
+  top: 45%;
+  left: 100%;
+
+  text-align: center;
+}
+
+.slice-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: white; /* Или другой цвет, если нужен */
+}
+
+.UTI-second {
+  position: relative;
+}
+
+.UTI-second-left {
+  cursor: pointer;
+}
+
+.UTI-inner-box__left {
+  position: absolute;
+  left: -65%;
+  top: 50%; /* Выравниваем вертикально */
+  transform: translateY(-50%); /* Центрирование */
+  display: flex;
+  flex-direction: column; /* Столбик */
+  gap: 25px; /* Расстояние между элементами */
+  padding: 10px;
+  border-radius: 10px;
+
+  opacity: 0;
+  pointer-events: none; /* Отключаем возможность взаимодействия */
+}
+
+.UTI-inner-box__left div {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* Правая колонка (правее круга) */
+.UTI-inner-box__right {
+  position: absolute;
+  right: -55%; /* Сдвигаем правее круга */
+  top: 50%; /* Выравниваем вертикально */
+  transform: translateY(-50%); /* Центрирование */
+  display: flex;
+  flex-direction: column; /* Столбик */
+  gap: 25px; /* Расстояние между элементами */
+  padding: 10px;
+  border-radius: 10px;
+
+  opacity: 0;
+  pointer-events: none; /* Отключаем возможность взаимодействия */
+}
+
+.UTI-inner-box__right div {
   padding: 10px;
   background-color: #fff;
   border-radius: 20px;
